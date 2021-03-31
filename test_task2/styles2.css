@@ -1,0 +1,43 @@
+.border1{
+    width: 250px;
+    height: 250px;
+    border: violet 5px solid;
+    background-color: lavender;
+    border-radius: 100%;
+    margin: 5%;
+    box-shadow: violet 0 0 30px;
+}
+.border2{
+    width: 300px;
+    height: 300px;
+    border: lightgreen 10px groove;
+    background-color: lightskyblue;
+    border-radius: 0%;
+    margin: 40px;
+}
+.border3{ width: 300px;
+    height: 200px;
+    border: lightpink 20px double;
+    background-color: lightskyblue;
+    border-radius: 50%;
+    margin: 40px;
+    box-shadow: inset palevioletred  0 0 40px;
+}
+.border4{
+    width: 500px;
+    height: 100px;
+    border: lightsalmon 20px dotted;
+    background-color: lemonchiffon;
+    border-radius: 0%;
+    margin: 50px;
+    box-shadow:  orange  0 0 40px;
+    
+}
+div{
+    flex: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
